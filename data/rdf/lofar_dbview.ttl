@@ -1,11 +1,11 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix astro: <	http://www.astro.umd.edu/~eshaya/astro-onto/owl/astronomy.owl#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix astro: <http://www.astro.umd.edu/~eshaya/astro-onto/owl/astronomy.owl#> .
 @prefix physics: <http://www.astro.umd.edu/~eshaya/astro-onto/owl/physics.owl#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix instruments: <http://www.astro.umd.edu/~eshaya/astro-onto/owl/instruments.owl#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -239,9 +239,9 @@
 
 <http://fdp.lofarpipelines-astron.surf-hosted.nl:8890/object/D52C65304C585E54E043C616A9C354FC> skos:member <http://fdp.lofarpipelines-astron.surf-hosted.nl:8890/observation/86585> .
 
-<http://fdp.lofarpipelines-astron.surf-hosted.nl:8890/observation/86586> physics:hasSystemMeasurement <http://fdp.lofarpipelines-astron.surf-hosted.nl:8890/antenna%2FHBA+Dual+Inner> ;
-	dcterms:description "Calibrator observation 13" ;
-	dcterms:identifier "86586"^^xsd:int .
+<http://fdp.lofarpipelines-astron.surf-hosted.nl:8890/observation/86586> dcterms:identifier "86586"^^xsd:int ;
+	physics:hasSystemMeasurement <http://fdp.lofarpipelines-astron.surf-hosted.nl:8890/antenna%2FHBA+Dual+Inner> ;
+	dcterms:description "Calibrator observation 13" .
 
 <http://fdp.lofarpipelines-astron.surf-hosted.nl:8890/antenna%2FHBA+Dual+Inner> rdfs:label "HBA Dual Inner" .
 
